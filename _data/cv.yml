@@ -1,97 +1,188 @@
+#- title: General Information
+#  type: map
+#  contents:
+#    - name: Full Name
+#      value: Albert Einstein
+#    - name: Date of Birth
+#      value: 14th March 1879
+#    - name: Languages
+#      value: English, German
+#
+#- title: Education
+#  type: time_table
+#  contents:
+#    - title: PhD
+#      institution: University of Zurich, Zurich, Switzerland
+#      year: 1905
+#      description:
+#        - Description 1.
+#        - Description 2.
+#        - title: Description 3.
+#          contents:
+#            - Sub-description 1.
+#            - Sub-description 2.
+#    - title: Federal teaching diploma
+#      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+#      year: 1900
+#      description:
+#        - Description 1.
+#        - Description 2.
+#
+#- title: Experience
+#  type: time_table
+#  contents:
+#    - title: Professor of Theoretical Physics
+#      institution: Institute for Advanced Study, Princeton University
+#      year: 1933 - 1955
+#      description:
+#        - Description 1.
+#        - Description 2.
+#        - title: Description 3.
+#          contents:
+#            - Sub-description 1.
+#            - Sub-description 2.
+#    - title: Visiting Professor
+#      institution: California Institute of Technology, Pasadena, California, US
+#      year: 1933
+#      description:
+#        - Description 1.
+#        - Description 2.
+#
+#    - title: Director
+#      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+#      year: 1917-1933
+#
+#    - title: Professor of Theoretical Physics
+#      institution: Karl-Ferdinand University, Prague, Czechoslovakia
+#      year: 1911 - 1917
+#      description:
+#
+#    - title: Associate Professor of Theoretical Physics
+#      institution: University of Zurich, Zurich, Switzerland
+#      year: 1909 - 1911
+#
+#- title: Open Source Projects
+#  type: time_table
+#  contents:
+#    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#      year: 2015-now
+#      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+#
+#- title: Honors and Awards
+#  type: time_table
+#  contents:
+#    - year: 1921
+#      items:
+#        - Nobel Prize in Physics
+#        - Matteucci Medal
+#    - year: 2029
+#      items:
+#        - Max Planck Medal
+#
+#- title: Academic Interests
+#  type: nested_list
+#  contents:
+#    - title: Topic 1.
+#      items:
+#        - Description 1.
+#        - Description 2.
+#    - title: Topic 2.
+#      items:
+#        - Description 1.
+#        - Description 2.
+#
+#- title: Other Interests
+#  type: list
+#  contents:
+#    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+
 - title: General Information
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Mindy Zhang
+    - name: Location
+      value: Cambridge, MA
+    - name: Email
+      value: mindyz@mit.edu
+    - name: Phone
+      value: (508)-863-5298
     - name: Languages
-      value: English, German
+      value: English (Professional), Mandarin (Intermediate)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Bachelor of Science in Computer Science and Brain & Cognitive Science
+      institution: Massachusetts Institute of Technology (MIT), Cambridge, MA
+      year: June 2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Coursework: Quantitative Methods for NLP, Computational Cognitive Science, Neural Computation, Machine Learning, Algorithms, Linear Algebra, Probability, Representation & Inference for AI
+    - title: Bachelor of Science in Mathematics
+      institution: Massachusetts Institute of Technology (MIT), Cambridge, MA
+      year: June 2026
+
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Undergraduate Researcher
+      institution: Learning and Intelligent Systems Lab, MIT, Cambridge, MA
+      year: March 2025 – Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Integrated vision-language models (VLMs) into planning for differentiable Task and Motion Planning systems (TAMPs).
+        - Developed and implemented differentiable cost functions generated from VLMs based on natural language and visual inputs using PyTorch.
+        - Prototyped and validated small-scale tasks (e.g., object packing with spatial constraints) before scaling to 3D real-world scenarios.
+    - title: Machine Learning and Data Science Intern
+      institution: Nasdaq, Boston, MA
+      year: January 2025 – February 2025
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Built machine learning models to identify factors relevant to option trading.
+        - Conducted experimental data analysis and presented trends in financial exchange contexts.
+        - Collaborated with senior software engineers and business partners.
+    - title: Undergraduate Researcher
+      institution: Computational Cognitive Science Lab, MIT, Cambridge, MA
+      year: November 2023 – December 2024
       description:
+        - Programmed in Julia using probabilistic programming to model moral judgment and compare LLM baselines.
+        - Applied inference methods and cognitive science concepts with numerical libraries.
+        - Developed, optimized, and tested computational models (Linear Regression, Probabilistic/Inference-based, etc.).
+        - Collaborated with lab members to produce well-written publications.
+    - title: MITES Summer Residential Teaching Assistant – Calculus
+      institution: MIT, Cambridge, MA
+      year: June 2023 – August 2023
+      description:
+        - Strengthened communication, independence, and responsibility through intensive training.
+        - Led recitations, held office hours, and supported course instruction.
+        - Worked with program administration to relaunch after a three-year hiatus.
+        - Mentored a diverse cohort of students academically and socially.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Leadership
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Executive Co-leader for Community Outreach
+      institution: MIT First Generation and Low Income Student Committee, Cambridge, MA
+      year: September 2023 – Present
+      description:
+        - Organized monthly gatherings to foster student connections.
+        - Worked with MIT FLI leadership to design initiatives improving student experience.
 
-- title: Honors and Awards
-  type: time_table
+- title: Skills
+  type: list
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - Python (NumPy, pandas, PyTorch, matplotlib, scikit, etc.)
+    - Julia
+    - WebPPL/JavaScript
+    - Matlab
+    - Arduino C
+    - Data visualization (LookerStudio, PowerBI)
+    - APIs, JSON
+    - Git, Google Drive, Slack
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Art & design
+    - Music
+    - Teaching & mentorship
+    - Building community
