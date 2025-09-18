@@ -102,26 +102,28 @@
     - name: Full Name
       value: Mindy Zhang
     - name: Location
-      value: Cambridge, MA
+      value: Braintree, MA
     - name: Email
       value: mindyz@mit.edu
     - name: Phone
       value: (508)-863-5298
     - name: Languages
-      value: English (Professional), Mandarin (Intermediate)
+      value: English (Native), Mandarin (Intermediate)
 
 - title: Education
   type: time_table
   contents:
+    - title: Master’s in Computer Science
+      institution: Massachusetts Institute of Technology (MIT), Cambridge, MA
+      year: June 2027
     - title: Bachelor of Science in Computer Science and Brain & Cognitive Science
       institution: Massachusetts Institute of Technology (MIT), Cambridge, MA
       year: June 2026
       description:
-        - Coursework: Quantitative Methods for NLP, Computational Cognitive Science, Neural Computation, Machine Learning, Algorithms, Linear Algebra, Probability, Representation & Inference for AI
+        - Coursework: Quantitative Methods for NLP, Algorithms, Machine Learning, Computational Cognitive Science, Neural Computation, Linear Algebra, Probability, Statistics, Representation & Inference for AI, Information Theory
     - title: Bachelor of Science in Mathematics
       institution: Massachusetts Institute of Technology (MIT), Cambridge, MA
       year: June 2026
-
 
 - title: Experience
   type: time_table
@@ -137,29 +139,44 @@
       institution: Nasdaq, Boston, MA
       year: January 2025 – February 2025
       description:
-        - Built machine learning models to identify factors relevant to option trading.
-        - Conducted experimental data analysis and presented trends in financial exchange contexts.
-        - Collaborated with senior software engineers and business partners.
+        - Developed a proof of concept for an Over-the-Counter (OTC) settlement failure prediction model using bank data.
+        - Built and trained a machine learning model with a recall rate of ~70%.
+        - Deployed model on AWS EC2 for scalable computation and utilized AWS S3 for efficient data storage.
     - title: Undergraduate Researcher
       institution: Computational Cognitive Science Lab, MIT, Cambridge, MA
       year: November 2023 – December 2024
       description:
-        - Programmed in Julia using probabilistic programming to model moral judgment and compare LLM baselines.
-        - Applied inference methods and cognitive science concepts with numerical libraries.
+        - Programmed in Julia using probabilistic programming to model human cognitive behavior (e.g. moral judgment).
+        - Applied inference methods and cognitive science concepts with numerical/data libraries.
         - Developed, optimized, and tested computational models (Linear Regression, Probabilistic/Inference-based, etc.).
         - Collaborated with lab members to produce well-written publications.
+    - title: Machine Learning Teaching Assistant
+      institution: MIT, Cambridge, MA
+      year: September 2025 – Present
+      description:
+        - Collaborated with other undergraduates in MIT’s 6.390 Machine Learning Course to support students during office hours and labs.
+        - Explained and reframed concepts to strengthen understanding and problem-solving.
+
+- title: Personal Projects
+  type: time_table
+  contents:
+    - title: Leveraging Input Representations to Improve LLM Reasoning on ARC Puzzles
+      institution: MIT
+      year: September 2024 – December 2024
+      description:
+        - Implemented and tested input representation strategies (grid representations, one-shot vs. zero-shot, helper functions) to evaluate LLM performance on ARC puzzles (generalization benchmark for AGI).
+        - Built a custom evaluation pipeline (pixel accuracy, positional accuracy, progress metrics) to capture model reasoning beyond binary correctness.
+
+- title: Leadership
+  type: time_table
+  contents:
     - title: MITES Summer Residential Teaching Assistant – Calculus
       institution: MIT, Cambridge, MA
       year: June 2023 – August 2023
       description:
         - Strengthened communication, independence, and responsibility through intensive training.
         - Led recitations, held office hours, and supported course instruction.
-        - Worked with program administration to relaunch after a three-year hiatus.
-        - Mentored a diverse cohort of students academically and socially.
-
-- title: Leadership
-  type: time_table
-  contents:
+        - Mentored a diverse cohort of students academically and socially; ~15 went on to attend MIT and Harvard.
     - title: Executive Co-leader for Community Outreach
       institution: MIT First Generation and Low Income Student Committee, Cambridge, MA
       year: September 2023 – Present
@@ -172,17 +189,20 @@
   contents:
     - Python (NumPy, pandas, PyTorch, matplotlib, scikit, etc.)
     - Julia
-    - WebPPL/JavaScript
-    - Matlab
+    - JavaScript
+    - MATLAB
     - Arduino C
+    - Linux
+    - AWS (EC2, S3)
     - Data visualization (LookerStudio, PowerBI)
     - APIs, JSON
-    - Git, Google Drive, Slack
+    - Git
 
 - title: Other Interests
   type: list
   contents:
     - Art & design
     - Music
-    - Teaching & mentorship
+    - Teaching & mentorship (academic and violin)
+    - Ice skating
     - Building community
