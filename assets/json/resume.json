@@ -13,6 +13,17 @@
   },
   "work": [
     {
+      "name": "Komline-Sanderson",
+      "position": "AI Intern",
+      "startDate": "2026-06-01",
+      "endDate": "2026-8-14",
+      "summary": "Developing AI tools using Microsoft Azure to increase effciency in the RFP to bid pipeline.",
+      "highlights": [
+        "Sole full-stack developer of an AI-powered agent built on Microsoft Azure (AI Search, Blob Storage, AI Foundry, Web App, Node.js) to automate retrieval of relevant historical bids and reference documents",
+        "Automated a time-intensive human review process with an end-to-end pipeline connecting document search, storage, and a deployed web interface to reduce bid preparation time using understanding of RAG and LLMs"
+      ]
+    },
+    {
       "name": "Learning and Intelligent Systems Lab, MIT",
       "position": "Undergraduate Researcher",
       "startDate": "2025-03-01",
@@ -118,11 +129,25 @@
   "skills": [
     {
       "name": "Programming & Systems",
-      "keywords": ["Python (NumPy, pandas, PyTorch, matplotlib, scikit)", "Julia", "JavaScript", "MATLAB", "Arduino C", "Linux"]
+      "keywords": [
+        "Python (NumPy, pandas, PyTorch, matplotlib, scikit)",
+        "Julia",
+        "JavaScript",
+        "MATLAB",
+        "Arduino C",
+        "Linux"
+      ]
     },
     {
       "name": "Data & Cloud",
-      "keywords": ["AWS (EC2, S3)", "Power BI", "Looker Studio", "APIs", "JSON", "Git"]
+      "keywords": [
+        "AWS (EC2, S3)",
+        "Power BI",
+        "Looker Studio",
+        "APIs",
+        "JSON",
+        "Git"
+      ]
     }
   ],
   "languages": [
@@ -138,8 +163,13 @@
   "interests": [
     {
       "name": "Creative & Academic Interests",
-      "keywords": ["Art & design", "Music", "Teaching & mentorship (academic and violin)", "Ice skating", "Building community"]
+      "keywords": [
+        "Art & design",
+        "Music",
+        "Teaching & mentorship (academic and violin)",
+        "Ice skating",
+        "Building community"
+      ]
     }
   ]
 }
-
