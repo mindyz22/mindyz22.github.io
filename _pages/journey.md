@@ -3,7 +3,7 @@ layout: page
 title: journey
 permalink: /journey/
 description: Personal reflections, background, and milestones on my journey in computer science, cognitive science, and math.
-nav: true
+nav: false
 nav_order: 1
 ---
 
