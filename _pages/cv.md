@@ -4,7 +4,7 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: MIT-masters-Resume_6_2026 - Mindy Zhang.pdf # you can also use external links here
+cv_pdf: assets\pdf\MIT-masters-Resume_6_2026-Mindy_Zhang.pdf # you can also use external links here
 description: Here is my CV. You can download it with the pdf download button above.
 toc:
   sidebar: left
