@@ -9,21 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-journey",
-          title: "journey",
-          description: "Personal reflections, background, and milestones on my journey in computer science, cognitive science, and math.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/journey/";
-          },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of research and side projects.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{id: "nav-cv",
+  },{id: "nav-cv",
           title: "cv",
           description: "Here is my CV. You can download it with the pdf download button above.",
           section: "Navigation",
